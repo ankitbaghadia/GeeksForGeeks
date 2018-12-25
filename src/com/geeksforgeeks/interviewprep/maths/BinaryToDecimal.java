@@ -14,7 +14,7 @@ public class BinaryToDecimal {
             long n = binary % 2;
             decimal = decimal + n * (long) Math.pow(2, i);
             binary = binary / 10;
-            i++;
+            i = i + 1;
 
             // Don't forget to increment i, that was the only mistake
             // Division and modulo by 10 is fine.
