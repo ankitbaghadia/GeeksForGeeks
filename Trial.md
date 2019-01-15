@@ -4,9 +4,9 @@
 
 ### This is H3
 
-This text is **bold**
-And this text is *italic*
-This is a link to [Apache Project](https://www.apache.org/)
+This text is **bold**  
+And this text is *italic*  
+This is a link to [Apache Project](https://www.apache.org/)  
 
 ## You can have lists like this
 - Unordered Item 1
