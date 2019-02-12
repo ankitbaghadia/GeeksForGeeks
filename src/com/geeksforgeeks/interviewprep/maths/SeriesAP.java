@@ -4,12 +4,11 @@ import java.util.Scanner;
 
 public class SeriesAP {
 
-
     public static int nthTermOfAP(int first, int second, int nth) {
 
-        int d = second - first;
+        int diff = second - first;
 
-        return first + (nth - 1) * d;
+        return first + (nth - 1) * diff;
     }
 
     public static void main(String[] args) {
@@ -18,16 +17,16 @@ public class SeriesAP {
         int testCases = Integer.parseInt(sc.nextLine());
 
         while (testCases > 0) {
-            String ap = sc.nextLine();
-            int first = Integer.parseInt(ap.split(" ")[0]);
-            int second = Integer.parseInt(ap.split(" ")[1]);
+
+            String inputString = sc.nextLine();
+            int first = Integer.parseInt(inputString.split(" ")[0]);
+            int second = Integer.parseInt(inputString.split(" ")[1]);
             int nth = Integer.parseInt(sc.nextLine());
 
             System.out.println(nthTermOfAP(first, second, nth));
 
             testCases--;
         }
-
     }
 
 }
