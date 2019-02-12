@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43289b55-ba13-4b0d-916c-72d19b2818ba" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ThePerfectOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -73,11 +71,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SeriesAP.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SeriesAP.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+            <state relative-caret-position="306">
+              <caret line="29" column="5" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArmstrongNumbers.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="124">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -87,15 +94,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SumOfDigitsPalindrome.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SumOfDigitsPalindrome.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -126,7 +124,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/PrimeNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/LCMAndGCD.java" />
-        <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/GCDofTwoNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SumOfDigitPalindrome.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP1.java" />
@@ -146,10 +143,11 @@
         <option value="$PROJECT_DIR$/src/com/hackerrank/interviewprep/warmup/CountValley.java" />
         <option value="$PROJECT_DIR$/src/com/hackerrank/interviewprep/warmup/JumpingClouds.java" />
         <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP.java" />
+        <option value="$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -220,7 +218,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SeriesAP">
+  <component name="RunManager" selected="Application.ArmstrongNumbers">
+    <configuration name="ArmstrongNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.interviewprep.maths.ArmstrongNumbers" />
+      <module name="GeeksForGeeks" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.geeksforgeeks.interviewprep.maths.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="CountValley" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hackerrank.interviewprep.warmup.CountValley" />
       <module name="GeeksForGeeks" />
@@ -239,17 +248,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hackerrank.interviewprep.warmup.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.geeksforgeeks.interviewprep.maths.PerfectNumber" />
-      <module name="GeeksForGeeks" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.geeksforgeeks.interviewprep.maths.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -318,19 +316,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.PerfectNumber" />
       <item itemvalue="Application.ThePerfectOne" />
       <item itemvalue="Application.CountValley" />
       <item itemvalue="Application.JumpingClouds" />
       <item itemvalue="Application.SeriesAP" />
+      <item itemvalue="Application.ArmstrongNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArmstrongNumbers" />
         <item itemvalue="Application.SeriesAP" />
         <item itemvalue="Application.JumpingClouds" />
         <item itemvalue="Application.CountValley" />
         <item itemvalue="Application.ThePerfectOne" />
-        <item itemvalue="Application.PerfectNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -375,13 +373,13 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3290938" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.3290938" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3290938" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3290938" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290938" />
       <window_info id="Capture Tool" order="6" />
@@ -610,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/LCMAndGCD.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -739,8 +730,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/SeriesAP.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
+        <state relative-caret-position="306">
+          <caret line="29" column="5" lean-forward="true" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/geeksforgeeks/interviewprep/maths/ArmstrongNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
         </state>
       </provider>
     </entry>

@@ -3,21 +3,24 @@ package com.geeksforgeeks.interviewprep.maths;
 import java.util.Scanner;
 
 public class ArmstrongNumbers {
-    public static boolean isArmstrong(int number) {
+
+    public static boolean isArmstrong(int input) {
 
         boolean isArmstrong = false;
+        int original = input;
 
         int cubeSum = 0;
-        int originalNumber = number;
 
-        while (number > 0) {
-            int n = number % 10;
+        while (input > 0) {
+            int n = input % 10;
             cubeSum = cubeSum + n * n * n;
-            number = number / 10;
+            input = input / 10;
         }
 
-        if (originalNumber == cubeSum) {
+        if (original == cubeSum) {
             isArmstrong = true;
+        } else {
+            isArmstrong = false;
         }
 
         return isArmstrong;
@@ -30,17 +33,12 @@ public class ArmstrongNumbers {
 
         while (testCases > 0) {
 
-            int number = Integer.parseInt(sc.nextLine());
+            int input = Integer.parseInt(sc.nextLine());
 
-            if (isArmstrong(number)) {
-                System.out.println("Yes");
-            } else {
-                System.out.println("No");
-            }
+            System.out.println(isArmstrong(input));
 
             testCases--;
         }
-
     }
 
 }
