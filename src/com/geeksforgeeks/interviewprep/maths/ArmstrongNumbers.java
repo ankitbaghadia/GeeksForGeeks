@@ -35,7 +35,11 @@ public class ArmstrongNumbers {
 
             int input = Integer.parseInt(sc.nextLine());
 
-            System.out.println(isArmstrong(input));
+            if (isArmstrong(input)) {
+                System.out.println("Yes");
+            } else {
+                System.out.println("No");
+            }
 
             testCases--;
         }
